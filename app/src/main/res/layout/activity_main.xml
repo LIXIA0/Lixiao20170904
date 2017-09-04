@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.lixiao20170904.MainActivity">
+
+    <Button
+        android:id="@+id/btn_change_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改变颜色"
+        android:textSize="20dp"
+        />
+    <com.bwie.lixiao20170904.RingView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:ring_color="@color/colorPrimaryDark"
+        app:ring_width="10dp"/>
+</LinearLayout>
